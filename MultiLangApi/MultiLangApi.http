@@ -1,0 +1,22 @@
+@MultiLangApi_HostAddress = https://localhost:7047
+
+GET {{MultiLangApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MultiLangApi_HostAddress}}/weatherforecast
+
+###
+
+GET {{MultiLangApi_HostAddress}}/weatherforecast
+
+###
+
+GET {{MultiLangApi_HostAddress}}/weatherforecast
+
+###
+
+GET {{MultiLangApi_HostAddress}}/weatherforecast/test-response
+
+###

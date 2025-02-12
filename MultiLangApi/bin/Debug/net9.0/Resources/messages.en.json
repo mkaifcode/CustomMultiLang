@@ -1,0 +1,4 @@
+﻿{
+  "WelcomeMessage": "Welcome to our API!",
+  "ErrorNotFound": "The requested resource was not found."
+}

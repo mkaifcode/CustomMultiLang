@@ -5,35 +5,22 @@ using System.Net;
 
 namespace MultiLangApi.Helpers.Response
 {
-    public static class ResponseHelper
+    public class ResponseHelper
     {
-        private static IServiceProvider _serviceProvider;
+        private readonly JsonLocalizationService _localizationService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public static void Configure(IServiceProvider serviceProvider)
+        public ResponseHelper(JsonLocalizationService localizationService, IHttpContextAccessor httpContextAccessor)
         {
-            _serviceProvider = serviceProvider;
-        }
+            _localizationService = localizationService;
+            _httpContextAccessor = httpContextAccessor;
+        }      
+        
 
-        private static JsonLocalizationService LocalizationService
-            => _serviceProvider.GetRequiredService<JsonLocalizationService>();
-
-        private static IHttpContextAccessor HttpContextAccessor
-            => _serviceProvider.GetRequiredService<IHttpContextAccessor>();
-        public static CommonResponse CreateResponseOld(string responseMSG, object responseData, int statusCode, bool isError = false)
+        public CommonResponse CreateResponse(string responseKey, object responseData, int statusCode, bool isError = false)
         {
-            CommonResponse response = new CommonResponse();
-            response.RequestId = Guid.NewGuid();                        
-            response.Data = responseData;
-            response.Message = responseMSG;
-            response.IsError = isError;
-            response.Status = ResponseStatusCode(statusCode);
-            return response;
-        }
-
-        public static CommonResponse CreateResponse(string responseKey, object responseData, int statusCode, bool isError = false)
-        {
-            var language = HttpContextAccessor.HttpContext?.Request.Headers["Accept-Language"].ToString() ?? "en";
-            string localizedMessage = LocalizationService.GetLocalizedString(responseKey, language);
+            var language = _httpContextAccessor.HttpContext?.Request.Headers["Accept-Language"].ToString() ?? "en";
+            string localizedMessage = _localizationService.GetLocalizedString(responseKey, language);
 
             return new CommonResponse
             {
@@ -45,7 +32,7 @@ namespace MultiLangApi.Helpers.Response
             };
         }
 
-        public static HttpStatusCode ResponseStatusCode(int statusCode) 
+        public HttpStatusCode ResponseStatusCode(int statusCode) 
         => statusCode switch
         {
             200 => HttpStatusCode.OK,
@@ -59,7 +46,7 @@ namespace MultiLangApi.Helpers.Response
             _ => HttpStatusCode.BadRequest
         };
 
-        public static IActionResult ResponseWrapper(CommonResponse response)
+        public IActionResult ResponseWrapper(CommonResponse response)
         {
             return response.Status switch
             {

@@ -3,23 +3,24 @@
   "WorkspaceRootPath": "D:\\Exercise\\NET9\\MultiLangApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\services\\localization\\jsonlocalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:services\\localization\\jsonlocalizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\helper\\response\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:helper\\response\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\resources\\messages.en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:resources\\messages.en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\saecu\\AppData\\Local\\Temp\\.vsdbgsrc\\99941eeb8465441a7923385517592fe481b9c7201dd1a58005c9d388afc4488d\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\helper\\response\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:helper\\response\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\multilangapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -38,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:resources\\messages.fr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\resources\\messages.en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:resources\\messages.en.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|d:\\exercise\\net9\\multilangapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1F44B616-9EA7-4572-A170-DAC0B4EB5B3A}|MultiLangApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -57,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,24 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ControllerActionInvoker.cs",
-              "DocumentMoniker": "C:\\Users\\saecu\\AppData\\Local\\Temp\\.vsdbgsrc\\99941eeb8465441a7923385517592fe481b9c7201dd1a58005c9d388afc4488d\\ControllerActionInvoker.cs",
-              "ToolTip": "C:\\Users\\saecu\\AppData\\Local\\Temp\\.vsdbgsrc\\99941eeb8465441a7923385517592fe481b9c7201dd1a58005c9d388afc4488d\\ControllerActionInvoker.cs [Read Only]",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAtwHUBAAACAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T11:06:18.904Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "JsonLocalizationService.cs",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\Services\\Localization\\JsonLocalizationService.cs",
               "RelativeDocumentMoniker": "Services\\Localization\\JsonLocalizationService.cs",
               "ToolTip": "D:\\Exercise\\NET9\\MultiLangApi\\Services\\Localization\\JsonLocalizationService.cs",
               "RelativeToolTip": "Services\\Localization\\JsonLocalizationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T10:44:16.56Z",
               "EditorCaption": ""
@@ -161,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -173,13 +159,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Exercise\\NET9\\MultiLangApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T09:43:48.299Z",
               "EditorCaption": ""
@@ -192,25 +178,27 @@
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
               "ToolTip": "D:\\Exercise\\NET9\\MultiLangApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T09:32:04.665Z"
+              "WhenOpened": "2025-02-12T09:32:04.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ResponseHelper.cs",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\Helper\\Response\\ResponseHelper.cs",
               "RelativeDocumentMoniker": "Helper\\Response\\ResponseHelper.cs",
               "ToolTip": "D:\\Exercise\\NET9\\MultiLangApi\\Helper\\Response\\ResponseHelper.cs",
               "RelativeToolTip": "Helper\\Response\\ResponseHelper.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAIA7wCEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAEUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T10:53:00.323Z"
+              "WhenOpened": "2025-02-12T10:53:00.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "messages.en.json",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\Resources\\messages.en.json",
               "RelativeDocumentMoniker": "Resources\\messages.en.json",
@@ -218,7 +206,8 @@
               "RelativeToolTip": "Resources\\messages.en.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T10:45:39.063Z"
+              "WhenOpened": "2025-02-12T10:45:39.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -258,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "MultiLangApi",
               "DocumentMoniker": "D:\\Exercise\\NET9\\MultiLangApi\\MultiLangApi.csproj",
               "RelativeDocumentMoniker": "MultiLangApi.csproj",
@@ -266,10 +255,6 @@
               "RelativeToolTip": "MultiLangApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-12T10:13:42.441Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

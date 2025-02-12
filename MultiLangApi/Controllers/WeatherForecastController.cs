@@ -11,12 +11,14 @@ namespace MultiLangApi.Controllers
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
+        private readonly ResponseHelper _responseHelper;
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, ResponseHelper responseHelper)
         {
             _logger = logger;
+            _responseHelper = responseHelper;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -34,8 +36,8 @@ namespace MultiLangApi.Controllers
         [HttpGet("test-response")]
         public IActionResult TestResponse()
         {
-            var response = ResponseHelper.CreateResponse("WelcomeMessage", new { home = "jome", titel = "Tital" }, 200);
-            return ResponseHelper.ResponseWrapper(response);
+            var response = _responseHelper.CreateResponse("WelcomeMessage", new { home = "jome", titel = "Tital" }, 200);
+            return _responseHelper.ResponseWrapper(response);
         }
 
     }
